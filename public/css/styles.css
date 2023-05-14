@@ -1,0 +1,115 @@
+.body{
+
+    font-family: 'Montserrat-Black', sans-serif;
+
+
+}
+#title{
+background-color: #ef8178;
+
+
+}
+h1{
+
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+h2{
+    font-family: 'Montserrat-Black';
+font-size: 3rem;
+list-style: 1.5rem;
+
+}
+.container-fluid{
+padding: 3% 15%;
+
+}
+.navbar{
+padding-bottom: 4.5rem;
+
+
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+padding-right: 10rem;
+    font-size: 2.5rem;
+}
+#features{
+    
+padding:20rem 10rem ;
+
+}
+
+.ic{
+color: #ef8178;
+display: flex;
+align-items: center;
+justify-content: center;
+
+margin-bottom: 2rem;
+
+}
+.box{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+#testimonials{
+text-align: center;
+padding: 7% 15%;
+background-color: #ef8178;
+color: #fff;
+
+}
+.testimonial-image{
+
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+a:link {
+    color: rgb(255, 255, 255);
+  }
+  a:link {
+    text-decoration: none;
+  }
+#press{
+
+    background-color: #ef8178;
+    text-align: center;
+padding-bottom: 10%;
+}
+.press-logo{
+
+width: 15%;
+margin: 20px 20px 20px 20px;
+
+
+}
+.footer {
+    color: #fff;
+    padding-top: 1rem;
+	position: relative;
+	text-align: center;
+justify-content: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #ef8178;
+    margin-bottom: 0;
+}
+
+
+
+@media (max-width:900px){
+#title{
+    background-color: #38b969;
+    text-align: center;
+}
+
+    
+}

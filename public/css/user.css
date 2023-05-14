@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+
+    background-color: #ef8178;
+    
+    }
+    
+    .navbar-brand{
+        font-family: 'Ubuntu', sans-serif;
+    padding-right: 10rem;
+        font-size: 2.5rem;
+    }
+
+body {
+    font-family: 'Montserrat-Black', sans-serif;
+    background-color: #F2F2F2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ef8178;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ef8178;
+}
+
+.entries-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 60px;
+
+}
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+thead {
+background-color: #ef8178;
+color: #fff;
+}
+
+th, td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+th:first-child, td:first-child {
+width: 25%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+width: 40%;
+}
+
+th:last-child, td:last-child {
+width: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+th:nth-child(2), td:nth-child(2) {
+width: 30%;
+}
+th:last-child, td:last-child {
+width: 25%;
+}
+}
+
+@media only screen and (max-width: 400px) {
+th:first-child, td:first-child {
+display: none;
+}
+}
+
+.alert {
+margin-bottom: 20px;
+padding: 10px;
+border-radius: 5px;
+}
+
+.alert-success {
+background-color: #D4EDDA;
+color: #155724;
+}
+
+.alert-error {
+background-color: #F8D7DA;
+color: #721C24;
+}
+
+.footer {
+    color: #fff;
+    padding-top: 1rem;
+	position: relative;
+	text-align: center;
+justify-content: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #ef8178;
+    margin-bottom: 0;
+}
